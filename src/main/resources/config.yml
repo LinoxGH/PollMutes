@@ -1,0 +1,50 @@
+
+#Sets the value of the votes of people from a group.
+#If a group doesn't have a value it'll be default(1)
+#Values can be floats
+group-values:
+  Tec-Admin: 10
+  H-Admin: 10
+  H-Builder: 10
+  Lead-Developer: 10
+
+  Admin: 7.5
+  Moderator: 5
+  Builder: 4
+
+  DonatorA: 3
+  DonatorB: 3
+  DonatorC: 3
+  DonatorD: 3
+  DonatorE: 3
+
+  Layers+: 2
+  Legend+: 2
+  Veteran+: 2
+  Senior+: 2
+  Member+: 2
+
+#The periods of time between sent messages. IN SECONDS.
+message-periods: 60
+
+#Amount of time to pass until the vote ends. IN MINUTES.
+vote-end: 3
+
+#Lenght of the mute. This will be used in replacing the %TIME% in the command.
+mute-length: 10
+mute-command: /tempmute %PLAYER% %TIME% m
+
+#The amount of seconds to put in between of poll announcements.
+announcement-periods: 60
+
+#The length and error messages of poll description/reason.
+description-length-minimum: 10
+description-length-minimum-message: " &4Reason is too short. Please re-enter."
+description-length-maximum: 10
+description-length-maximum-message: " &4Reason is too long. Please re-enter."
+
+#The question to ask to the player that is starting the pollmute, the result of this question will define the pollmute reason.
+reason-conversation-question: "&aEnter a &eReason &afor the mute &9>"
+
+#The length of the lines in the tooltip that tells the reason.
+reason-tooltip-line-length: 30

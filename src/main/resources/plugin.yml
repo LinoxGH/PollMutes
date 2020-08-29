@@ -1,0 +1,24 @@
+name: PollMutes
+version: ${project.version}
+main: top.ageofelysian.pollmutes.PollMutes
+authors: [ajan_12]
+description: The ability of muting is now in hands of player polls!
+
+commands:
+
+  pollmute:
+    description: Opens the poll mute gui.
+    usage: /pollmute
+    aliases: pmute
+    permission: pollmutes.use
+    permission-message: "&4You do not have permission to do this."
+
+permissions:
+
+  pollmutes.use:
+    description: The permission node to allow the usage of /pollmute.
+    default: true
+
+  pollmutes.admin:
+    description: The permission node to allow the player to see admin-specific poll info.
+    default: op
